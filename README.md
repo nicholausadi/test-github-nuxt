@@ -45,10 +45,10 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 - [ ] Upload code coverage (SonarQube / Codecov)
 
 ## Build
-- [ ] Docker
+- [x] Docker
 
 ## Deploy
-- [ ] Cloud Run
+- [x] Cloud Run
 
 ## Canary Release
 - [ ] Github Actions
