@@ -9,9 +9,6 @@ COPY package*.json ./
 
 RUN npm install --only=production
 
-RUN npm install eslint --save-dev
-RUN npm install stylelint --save-dev
-
 # Copy local nuxt code to the container
 COPY . .
 
