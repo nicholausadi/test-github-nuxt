@@ -49,6 +49,10 @@ export default {
     '@nuxtjs/dotenv'
   ],
   /*
+   ** Nuxt.js dev-modules
+   */
+  devDependencies: ['@nuxtjs/eslint-module'],
+  /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
    */
