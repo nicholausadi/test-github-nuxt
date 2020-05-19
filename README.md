@@ -23,11 +23,11 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 # Project CI/CD
 ## Commit Stage
-- [ ] Code style (Linter)
+- [x] Code style (Linter)
 - [ ] Prettier
 - [ ] Lint staged files
 - [ ] Stylelint
-- [ ] Semantic Pull Request https://probot.github.io/apps/semantic-pull-requests/
+- [x] Semantic Pull Request https://probot.github.io/apps/semantic-pull-requests/
 - [ ] Code Analysis (Codacy / SonarQube)
 	- [ ] Duplicated code
   - [ ] Cyclomatic complexity
