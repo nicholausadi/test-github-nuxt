@@ -22,7 +22,7 @@ $ npm run generate
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 # Project CI/CD
-## Commit Stage
+## Commit
 - [x] Code style (Linter)
 - [ ] Prettier
 - [ ] Lint staged files
@@ -36,12 +36,12 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
   - [ ] Number of warnings
   - [ ] Unused code
 
-## Testing Stage
+## Test
 - [ ] Unit Testing
 - [ ] UI Testing
 - [ ] Smoke? Integration? Acceptance?
 
-## ???
+## Code Coverage
 - [ ] Upload code coverage (SonarQube / Codecov)
 
 ## Build
