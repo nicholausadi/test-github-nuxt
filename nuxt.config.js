@@ -1,3 +1,4 @@
+/* eslint no-unused-vars: "warn" */
 export default {
   mode: 'universal',
   /*
