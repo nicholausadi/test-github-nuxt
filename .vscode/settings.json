@@ -1,0 +1,6 @@
+{
+    "editor.rulers": [100],
+    "editor.formatOnSave": false, // disable editos's auto format
+    "eslint.enable": true, // enable eslint
+    "files.eol": "\n",
+  }
