@@ -28,6 +28,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 - [ ] Lint staged files
 - [ ] Stylelint
 - [x] Semantic Pull Request https://probot.github.io/apps/semantic-pull-requests/
+- [x] WIP checks
 - [ ] Code Analysis (Codacy / SonarQube)
 	- [ ] Duplicated code
   - [ ] Cyclomatic complexity
