@@ -1,4 +1,4 @@
-[![codecov](https://codecov.io/gh/nicholausadi/test-github-nuxt/branch/master/graph/badge.svg)](https://codecov.io/gh/nicholausadi/test-github-nuxt)
+[![codecov](https://codecov.io/gh/nicholausadi/test-github-nuxt/branch/master/graph/badge.svg)](https://codecov.io/gh/nicholausadi/test-github-nuxt) ![CI](https://github.com/nicholausadi/test-github-nuxt/workflows/CI/badge.svg)
 
 # test-github-nuxt
 
