@@ -39,6 +39,12 @@ jobs:
         # Specify whether or not CI build should fail if Codecov runs into an error during upload
         fail_ci_if_error: true
 
+    - name: fix code coverage paths
+      working-directory: ./coverage
+      run: |
+        sed -i 's/\/home\/runner\/work\/test-github-nuxt\/test-github-nuxt\//\/github\/workspace\//g' lcov.info
+        sed -i 's/\/home\/runner\/work\/test-github-nuxt\/test-github-nuxt\//\/github\/workspace\//g' sonar-cloud-reporter.xml
+
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@master
       env:
