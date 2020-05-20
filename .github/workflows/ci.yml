@@ -48,3 +48,10 @@ jobs:
       with:
         # Specify whether or not CI build should fail if Codecov runs into an error during upload
         fail_ci_if_error: true
+
+    - name: SonarCloud Scan
+      uses: sonarsource/sonarcloud-github-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        
