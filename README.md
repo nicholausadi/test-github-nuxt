@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/nicholausadi/test-github-nuxt/branch/master/graph/badge.svg)](https://codecov.io/gh/nicholausadi/test-github-nuxt)
+
 # test-github-nuxt
 
 > My transcendent Nuxt.js project
@@ -26,7 +28,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 - [x] Code style (Linter)
 - [ ] Prettier
 - [ ] Lint staged files
-- [ ] Stylelint
+- [x] Stylelint
 - [x] Semantic Pull Request https://probot.github.io/apps/semantic-pull-requests/
 - [x] WIP checks
 - [ ] Code Analysis (Codacy / SonarQube)
@@ -38,7 +40,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
   - [ ] Unused code
 
 ## Test
-- [ ] Unit Testing
+- [x] Unit Testing
 - [ ] UI Testing
 - [ ] Smoke? Integration? Acceptance?
 
