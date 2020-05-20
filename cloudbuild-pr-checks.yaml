@@ -16,9 +16,10 @@ steps:
      'run',
      'codecov',
      '--',
-     '--token=$_CODECOV_TOKEN'
-    #  '--commit=$COMMIT_SHA',
-    #  '--branch=$BRANCH_NAME',
+    #  '--token=$_CODECOV_TOKEN',
+     '--disable=detect',
+     '--commit=$COMMIT_SHA',
+     '--branch=$BRANCH_NAME',
     #  '--pr=$_PR_NUMBER',
     #  '--build=$BUILD_ID'
    ]
