@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/nicholausadi/test-github-nuxt/branch/master/graph/badge.svg)](https://codecov.io/gh/nicholausadi/test-github-nuxt)
+
 # test-github-nuxt
 
 > My transcendent Nuxt.js project
