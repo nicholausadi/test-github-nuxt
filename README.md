@@ -33,23 +33,24 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 - [x] Stylelint
 - [x] Semantic Pull Request https://probot.github.io/apps/semantic-pull-requests/
 - [x] WIP checks
-- [ ] Code Analysis (Codacy / SonarQube) - [ ] Duplicated code
-  - [ ] Cyclomatic complexity
-  - [ ] Security and Vulnarabilities
-  - [ ] Afferent and efferent coupling
-  - [ ] Number of warnings
-  - [ ] Unused code
+- [x] Code Analysis (Codacy / SonarQube)
+  - [x] Duplicated code
+  - [x] Cyclomatic complexity
+  - [x] Security and Vulnarabilities
+  - [x] Afferent and efferent coupling
+  - [x] Number of warnings
+  - [x] Unused code
 
 ## Test
 
 - [x] Unit Testing
-- [ ] UI Testing
-- [ ] Smoke? Integration? Acceptance?
+- [x] UI Testing
+- [x] Smoke? Integration? Acceptance?
 
 ## Code Coverage
 
 - [x] Upload code coverage (Codecov)
-- [ ] Upload code coverage (SonarQube)
+- [x] Upload code coverage (SonarQube)
 
 ## Build
 
