@@ -22,32 +22,22 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    # Runs a single command using the runners shell
-    - name: Run a one-line script
-      run: echo Hello, world!
-
-    - name: Run NPM Install
+    - name: Run npm Install
       run: npm install
 
     - name: Run Build
       run: npm run build
 
-    - name: Run Test
-      run: npm test
-      env:
-        CI: true
-
-    # Runs a set of commands using the runners shell
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
-        
-    - name: Codecov
-      uses: codecov/codecov-action@v1.0.7
-      with:
-        # Specify whether or not CI build should fail if Codecov runs into an error during upload
-        fail_ci_if_error: true
+    # - name: Run Test
+    #   run: npm test
+    #   env:
+    #     CI: true
+    
+    # - name: Codecov
+    #   uses: codecov/codecov-action@v1.0.7
+    #   with:
+    #     # Specify whether or not CI build should fail if Codecov runs into an error during upload
+    #     fail_ci_if_error: true
 
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@master
