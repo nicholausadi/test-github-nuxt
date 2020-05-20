@@ -6,7 +6,7 @@
         test-github-nuxt
       </h1>
       <h2 class="subtitle">
-        My transcendent Nuxt.js project
+        My transcendent Nuxt.js project Nicho
       </h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">
