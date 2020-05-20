@@ -25,10 +25,7 @@
     "nuxt": "^2.0.0",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^3.0.0-0",
-    "@nuxtjs/dotenv": "^1.4.0",
-    "@nuxtjs/eslint-config": "^2.0.2",
-    "@nuxtjs/eslint-module": "^1.2.0",
-    "@nuxtjs/stylelint-module": "^3.1.0"
+    "@nuxtjs/dotenv": "^1.4.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.2",
@@ -37,6 +34,7 @@
     "@vue/test-utils": "^1.0.0-beta.27",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^24.1.0",
+    "codecov": "^3.1.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-config-prettier": "^6.11.0",
