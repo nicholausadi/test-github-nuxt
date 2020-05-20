@@ -38,7 +38,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
   - [ ] Unused code
 
 ## Test
-- [ ] Unit Testing
+- [x] Unit Testing
 - [ ] UI Testing
 - [ ] Smoke? Integration? Acceptance?
 
