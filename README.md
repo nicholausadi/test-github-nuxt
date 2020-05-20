@@ -45,7 +45,8 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 - [ ] Smoke? Integration? Acceptance?
 
 ## Code Coverage
-- [ ] Upload code coverage (SonarQube / Codecov)
+- [x] Upload code coverage (Codecov)
+- [ ] Upload code coverage (SonarQube)
 
 ## Build
 - [x] Docker
