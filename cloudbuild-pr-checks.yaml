@@ -5,9 +5,9 @@ steps:
 - name: 'gcr.io/cloud-builders/npm'
   args: ["test", "--", "--coverage"]
 
-- name: node:10.15.1
-  entrypoint: npm
-  args: ["run", "build"]
+# - name: node:10.15.1
+#   entrypoint: npm
+#   args: ["run", "build"]
 
 # Send Codecov
 - name: 'gcr.io/cloud-builders/npm'  
