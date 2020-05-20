@@ -20,8 +20,8 @@ steps:
      '--disable=detect',
      '--commit=$COMMIT_SHA',
      '--branch=$BRANCH_NAME',
-    #  '--pr=$_PR_NUMBER',
-    #  '--build=$BUILD_ID',
+     '--pr=$_PR_NUMBER',
+     '--build=$BUILD_ID',
    ]
 
 # Build the container image
