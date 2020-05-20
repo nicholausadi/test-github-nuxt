@@ -24,15 +24,16 @@ $ npm run generate
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 # Project CI/CD
+
 ## Commit
+
 - [x] Code style (Linter)
-- [ ] Prettier
+- [x] Prettier
 - [ ] Lint staged files
 - [x] Stylelint
 - [x] Semantic Pull Request https://probot.github.io/apps/semantic-pull-requests/
 - [x] WIP checks
-- [ ] Code Analysis (Codacy / SonarQube)
-	- [ ] Duplicated code
+- [ ] Code Analysis (Codacy / SonarQube) - [ ] Duplicated code
   - [ ] Cyclomatic complexity
   - [ ] Security and Vulnarabilities
   - [ ] Afferent and efferent coupling
@@ -40,19 +41,24 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
   - [ ] Unused code
 
 ## Test
+
 - [x] Unit Testing
 - [ ] UI Testing
 - [ ] Smoke? Integration? Acceptance?
 
 ## Code Coverage
+
 - [x] Upload code coverage (Codecov)
 - [ ] Upload code coverage (SonarQube)
 
 ## Build
+
 - [x] Docker
 
 ## Deploy
+
 - [x] Cloud Run
 
 ## Canary Release
+
 - [ ] Github Actions
