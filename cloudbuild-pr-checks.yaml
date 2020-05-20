@@ -10,15 +10,18 @@ steps:
   args: ["run", "build"]
 
 # Send Codecov
-- name: 'gcr.io/cloud-builders/curl'
-  entrypoint: bash
-  args: ['-c', 'bash <(curl -s https://codecov.io/bash)']
-  env:
-  - 'VCS_COMMIT_ID=$COMMIT_SHA'
-  - 'VCS_BRANCH_NAME=$BRANCH_NAME'
-  - 'VCS_PULL_REQUEST=$_PR_NUMBER'
-  - 'CI_BUILD_ID=$BUILD_ID'
-  - 'CODECOV_TOKEN=$_CODECOV_TOKEN'
+- name: 'gcr.io/cloud-builders/npm'  
+  args: 
+   [
+     'run',
+     'codecov',
+     '--',
+     '--token=$_CODECOV_TOKEN'
+    #  '--commit=$COMMIT_SHA',
+    #  '--branch=$BRANCH_NAME',
+    #  '--pr=$_PR_NUMBER',
+    #  '--build=$BUILD_ID'
+   ]
 
 # Build the container image
 - name: 'gcr.io/cloud-builders/docker'
