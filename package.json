@@ -22,14 +22,6 @@
       "pre-commit": "lint-staged"
     }
   },
-  "jest": {
-    "testResultsProcessor": "jest-sonar-reporter"
-  },
-  "jestSonar": {
-    "reportPath": "reports",
-    "reportFile": "test-reporter.xml",
-    "indent": 4
-  },
   "dependencies": {
     "nuxt": "^2.0.0",
     "@nuxtjs/axios": "^5.3.6",
@@ -59,7 +51,6 @@
     "eslint-plugin-vue": "^6.2.2",
     "husky": "^4.0.0",
     "jest": "^24.1.0",
-    "jest-sonar-reporter": "^2.0.0",
     "lint-staged": "^10.0.0",
     "prettier": "^1.19.1",
     "stylelint": "^10.1.0",
