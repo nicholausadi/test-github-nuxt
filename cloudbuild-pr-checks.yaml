@@ -3,11 +3,11 @@ steps:
   args: ['install']
 
 - name: 'gcr.io/cloud-builders/npm'
-  args: ['test']
+  args: ['run', 'test']
 
-# 1263cc2b-9d97-473b-bf3e-22eed44ab1ce
+# Send Codecov
 - name: 'gcr.io/cloud-builders/npm'
-  args: ['codecov', '-t', '$_CODECOV_TOKEN']
+  args: ['run', 'codecov', '-t', '$_CODECOV_TOKEN']
 
 # Build the container image
 - name: 'gcr.io/cloud-builders/docker'
