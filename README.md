@@ -27,13 +27,13 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 ## Commit
 
-- [x] Code style (Linter)
+- [x] Linter/Code style (ESLint)
+- [x] Stylelint
 - [x] Prettier
 - [ ] Lint staged files
-- [x] Stylelint
 - [x] Semantic Pull Request https://probot.github.io/apps/semantic-pull-requests/
-- [x] WIP checks
-- [x] Code Analysis (Codacy / SonarQube)
+- [x] WIP checks https://github.com/marketplace/wip
+- [x] Code Analysis (SonarQube)
   - [x] Duplicated code
   - [x] Cyclomatic complexity
   - [x] Security and Vulnarabilities
@@ -44,8 +44,10 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 ## Test
 
 - [x] Unit Testing
-- [x] UI Testing
-- [x] Smoke? Integration? Acceptance?
+- [ ] UI Testing
+- [ ] Smoke?
+- [ ] Integration?
+- [ ] Acceptance?
 
 ## Code Coverage
 
@@ -62,4 +64,4 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 ## Canary Release
 
-- [ ] Github Actions
+- [ ] Github Actions Delay Job
