@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">test-github-nuxt</h1>
-      <h2 class="subtitle">My transcendent Nuxt.js project: (Nicho 2)</h2>
+      <h2 class="subtitle">My transcendent Nuxt.js project: (Nicho 3)</h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green"
           >Documentation</a
