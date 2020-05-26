@@ -12,9 +12,9 @@ module.exports = {
       alias: {
         map: [
           ['@', '.'],
-          ['~', '.'],
+          ['~', '.']
         ],
-        extensions: ['.vue', '.js'],
+        extensions: ['.vue', '.js']
       }
     }
   },
@@ -25,10 +25,9 @@ module.exports = {
     'airbnb-base',
     'prettier',
     'prettier/vue',
+    'prettier/standard'
   ],
-  plugins: [
-    'prettier'
-  ],
+  plugins: ['prettier'],
   // add your custom rules here
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
@@ -38,6 +37,6 @@ module.exports = {
     'import/prefer-default-export': 'off', // or warn
     'no-restricted-globals': 'off', // or warn
     'func-names': 'off', // or warn
-    'vue/require-prop-types': 'warn', // or off
+    'vue/require-prop-types': 'warn' // or off
   }
 }
