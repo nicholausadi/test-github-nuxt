@@ -3,4 +3,5 @@
     "editor.formatOnSave": true, // disable editos's auto format
     "eslint.enable": true, // enable eslint
     "files.eol": "\n",
+    "editor.fontFamily": "Cascadia Code PL, Consolas, 'Courier New', monospace",
   }
