@@ -3,7 +3,7 @@ steps:
   args: ['install']
 
 - name: 'gcr.io/cloud-builders/npm'
-  args: ["test", "--", "--coverage"]
+  args: ["test", "--", "--coverage", "--passWithNoTests"]
 
 # - name: node:10.15.1
 #   entrypoint: npm
