@@ -23,7 +23,7 @@ steps:
      '--build=$BUILD_ID',
    ]
 
-# Build the container image
+# Try Build the container image before PR merge
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'gcr.io/$PROJECT_ID/test-github-nuxt', '.']
 

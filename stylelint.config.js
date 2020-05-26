@@ -3,6 +3,8 @@ module.exports = {
   // https://stylelint.io/user-guide/configuration
   extends: ['stylelint-config-standard', 'stylelint-prettier/recommended'],
   plugins: ['stylelint-prettier'],
-  rules: { 'prettier/prettier': true },
+  rules: {
+    'prettier/prettier': true
+  },
   ignoreFiles: ['./coverage/**', './*.vue']
 }
