@@ -1,3 +1,33 @@
+# coverage:
+#   bot: codecov-bot
+#   status:
+#     project:
+#       default: # This can be anything, but it needs to exist as the name
+#         # basic settings
+#         target: auto
+#         threshold: 5%
+#         base: auto 
+#         # advanced settings
+#         branches: 
+#           - master
+#         if_no_uploads: error
+#         if_not_found: success
+#         if_ci_failed: error
+#         only_pulls: false
+#     patch:
+#       default: # This can be anything, but it needs to exist as the name
+#         # basic settings
+#         target: 80%
+#         threshold: 5%
+#         base: auto 
+#         # advanced settings
+#         branches: 
+#           - master
+#         if_no_uploads: error
+#         if_not_found: success
+#         if_ci_failed: error
+#         only_pulls: false
+
 coverage:
   bot: codecov-bot
   status:
@@ -14,16 +44,7 @@ coverage:
         if_not_found: success
         if_ci_failed: error
         only_pulls: false
-    patch:
-      default: # This can be anything, but it needs to exist as the name
-        # basic settings
-        target: 80%
-        threshold: 5%
-        base: auto 
-        # advanced settings
-        branches: 
-          - master
-        if_no_uploads: error
-        if_not_found: success
-        if_ci_failed: error
-        only_pulls: false
+        flags: 
+          - frontend
+        paths: 
+          - src/frontend

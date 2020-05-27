@@ -44,11 +44,9 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 ## Test
 
-- [x] Unit Testing
-- [ ] UI Testing
-- [ ] [Placeholder] Smoke?
-- [ ] [Placeholder] Integration?
-- [ ] [Placeholder] Acceptance?
+Run one of type of testing
+
+- [x] Unit Testing / UI Testing / Smoke / Integration / Acceptance
 
 ## Code Coverage
 
