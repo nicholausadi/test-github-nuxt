@@ -33,7 +33,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 - [x] Lint staged files (pre-commit lint checks)
 - [x] Semantic Pull Request https://probot.github.io/apps/semantic-pull-requests/
 - [x] WIP checks https://github.com/marketplace/wip
-- [x] Code Analysis (SonarQube)
+- [x] Code Analysis (SonarCloud)
   - [x] Duplicated code
   - [x] Cyclomatic complexity
   - [x] Security and Vulnarabilities
@@ -52,7 +52,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 ## Code Coverage
 
 - [x] Upload code coverage (Codecov)
-- [x] Upload code coverage (SonarQube)
+- [x] Upload code coverage (SonarCloud)
 
 ## Build
 
