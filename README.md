@@ -30,7 +30,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 - [x] Linter/Code style (ESLint)
 - [x] Stylelint
 - [x] Prettier
-- [x] Lint staged files (pre-commit lint checks)
+- [x] Lint staged files (pre-commit hook)
 - [x] Semantic Pull Request https://probot.github.io/apps/semantic-pull-requests/
 - [x] Conventional Commit and PR message https://www.conventionalcommits.org/en/v1.0.0/
 - [x] WIP checks https://github.com/marketplace/wip
