@@ -11,7 +11,8 @@
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "test": "jest",
-    "codecov": "codecov"
+    "codecov": "jest --coverage && codecov",
+    "coveralls": "jest --coverage && coveralls < coverage/lcov.info"
   },
   "lint-staged": {
     "*.{js,vue}": "npm run lint",
